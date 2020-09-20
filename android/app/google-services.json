@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "252062232264",
+    "firebase_url": "https://crowdup-d92a7.firebaseio.com",
+    "project_id": "crowdup-d92a7",
+    "storage_bucket": "crowdup-d92a7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252062232264:android:efcd2d2e9f70f0d7ef7ffd",
+        "android_client_info": {
+          "package_name": "com.example.gh_crowdup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "252062232264-n81jai597fpg2itrsirnqq44l0h9es9m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB79HhkQULznsWrefwYAxp8xRJc0Lu17d8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "252062232264-n81jai597fpg2itrsirnqq44l0h9es9m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
