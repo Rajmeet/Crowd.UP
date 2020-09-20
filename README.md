@@ -1,8 +1,7 @@
-# gh_crowdup
+# GrizzHack 5 - Crowd.UP
+CROWD.UP: UP turnout; UP rewards
 
-A new Flutter application.
-
-## Getting Started
+## Installation and Usage
 
 This project is a starting point for a Flutter application.
 
