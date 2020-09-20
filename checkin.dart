@@ -1,18 +1,19 @@
 import 'package:flutter/material.dart';
-import 'main.dart';
-import 'home_page.dart'
+//import 'main.dart';
+//import 'home_page.dart'
 
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
-  static const String _title = 'Check-In';
+  static const String _title = ('Check-In');
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: _title,
       home: Scaffold(
-        appBar: AppBar(title: const Text(_title)),
+        backgroundColor: Color(0xff1d1a1c),
+        appBar: AppBar(title: const Text(_title, style: TextStyle(color: Colors.orange)), backgroundColor: Color(0xff1d1a1c)),
         body: MyStatelessWidget(),
       ),
     );
@@ -29,7 +30,7 @@ class MyStatelessWidget extends StatelessWidget {
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: <Widget>[
-          Text('Would you like to check-in?', style: TextStyle(fontSize: 28)),
+          Text('Would you like to check-in?', style: TextStyle(fontSize: 28, color: Colors.orange)),
           const SizedBox(height: 30),
           RaisedButton(
             onPressed: () {
