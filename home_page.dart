@@ -26,17 +26,41 @@ class HomePage extends StatelessWidget {
             ),
             SizedBox(height: 100),
             RaisedButton(
-              padding: EdgeInsets.all(20),
+              padding: EdgeInsets.fromLTRB(100, 20, 100, 20),
               onPressed: () {},
               color: Color(0xffd94a19),
               shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(20)
+                borderRadius: BorderRadius.circular(10)
               ),
               child: Text(
                 "Login in or Register",
                 style: TextStyle(
                     color: Colors.white,
                   fontSize: 20,
+                ),
+              ),
+            ),
+            SizedBox(height: 20),
+            Container(
+              decoration: BoxDecoration(
+                border: Border.all(
+                  color: Colors.white,
+                ),
+              ),
+              child: RaisedButton(
+                padding: EdgeInsets.fromLTRB(100, 20, 100, 20),
+                onPressed: () {},
+                color: Color(0xff1d1a1c),
+                shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(10),
+                ),
+
+                child: Text(
+                  "Sign Up",
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 20,
+                  ),
                 ),
               ),
             )
